@@ -1,0 +1,11 @@
+*.log
+*.synctex.gz
+*.fls
+*.toc
+*.aux
+*.fdb_latexmk
+*.dvi
+*.out
+
+output/*
+!output/*.pdf
