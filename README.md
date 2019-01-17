@@ -1,5 +1,9 @@
 # D-sektionens sektionsdokument
 
+Här hittar du sektionens stadgar, reglemente och i framtiden även andra dokument.
+
+Om du vill läsa dem finns pdf:er i mappen [output](/output)
+
 ## Att göra ändringar
 
 Ladda ner texlive.
