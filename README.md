@@ -11,8 +11,8 @@ sudo apt-get install texlive-full
 Klona repot.
 
 ```
-git clone nånting
-cd nånting
+git clone git@github.com:d-sektionen/styrdokument.git
+cd styrdokument
 ```
 
 För att kompilera filerna kan du köra följande command. Du kan behöva ändra permissions på den filen så du kan köra den.
@@ -27,7 +27,3 @@ För att kompilera filerna kan du köra följande command. Du kan behöva ändra
 - Uppdatera datum
 - Uppdatera versionsnummer
 - Ändra det som ska ändras
-
-## Todo
-
-- datum även i versionshistorik
