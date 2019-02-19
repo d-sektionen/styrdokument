@@ -1,0 +1,124 @@
+\documentclass{datateknologsektionen-document}
+
+\title{Policy för elektroniskt röstningssystem}
+\date{2017-01-20}
+
+\begin{document}
+\hspace{0pt}
+\vfill
+\begin{center}
+  \Huge\textbf{Policy för användande av elektroniskt röstningssystem i samband med sektionsmöten}
+
+  \huge Datateknologsektionen
+
+  \large
+  Organisationsnummer: 822002-1409
+
+  Version: 1.0
+
+\end{center}
+\vfill
+\hspace{0pt}
+\pagebreak
+
+% \section*{Versionshistorik}
+% \begin{footnotesize}
+%   \begin{longtabu} to \linewidth { |l|l|X[2]|X| }
+%     \hline
+%     Version & Datum & Anmärkning & Ansvarig \\ \hline
+%     0.1 & 2015-02-01 & Första utkastet & Robin Abrahamsson \\ \hline
+%     0.2 & 2015-03-20 & Lagt till versionshistorik, innehållsförteckning och en del förtydliganden & Robin Abrahamsson, Simon Lindén \\ \hline
+%     0.3 & 2015-04-23 & Ytterligare förtydligande och omstrukturering & Robin Abrahamsson, Simon Lindén, Jonathan Nyman \\ \hline
+%     0.4 & 2017-11-23 & Lade till §2.5 som syftar på den interna köp- och säljgruppen. Flyttade gamla §2.5 till §2.6. & Daniel Roos \\ \hline
+%   \end{longtabu}
+% \end{footnotesize}
+
+% \pagebreak
+
+\tableofcontents
+
+\pagebreak
+
+\section{Inledning}
+Det här är ett dokument som behandlar Datateknologsektionens användande av elektroniska
+röstningssystem vid mer formella tillställningar såsom sektionsmöten. Det som står i dokumentet
+gäller som kravspecifikation för att ett elektroniskt röstningssystem skall anses godtagbart och
+punkterna i avsnitt \S \ref{anvandande} som behandlar användandet av ett sådant bör ses som riktlinjer. Om behov
+finns ska detta dokument uppdateras för att spegla rådande förhållanden. Finns det oklarheter skall
+studentens intressen sättas i första hand.
+\subsection{Bakgrund}
+Datateknologsektionens sektionsmöten är ofta utdragna och tidsineffektiva. En väldigt stor tidstjuv
+är fastställandet av röstlängden inför röstning. Två rösträknare tillika justeringspersoner ska
+oberoende av varandra räkna antal röstberättigade i salen och meddela ordförande om den
+enskildes resultat. Vid olika resultat för rösträknarna måste processen göras om från början. En
+process som är långt ifrån optimal.
+\subsection{Syfte}
+Ett väl framtaget elektroniskt röstningssystem syftar till att göra fastställandet av röstlängden en
+smidigare process, öka den enskilde medlemmens integritet i röstningsfrågor och göra mötet mer
+tillmötesgående för nytillträdda medlemmar i det avseendet att det kan vara svårt att veta hur man
+får sin röst hörd på ett formellt sektionsmöte. Syftet med det här dokumentet är att ställa krav på
+det elektroniska systemet för att på så sätt undvika att medlemmarnas intressen vad gäller integritet,
+tillgänglighet och dylikt inte tillvaratas, nu men även i framtiden.
+\section{Formella tekniska krav på det elektroniska röstningssystemet}
+\subsection{Identifiera röstberättigade medlemmar}
+\label{rostberattigade}
+Lösningen skall vara utformad på ett sådant sätt att systemet kan avgöra om en person, medlem eller
+icke-medlem, är röstberättigad vid mötet. Som röstberättigad medlem avses person definierad i
+stadgarna under \S 2. Systemet skall med hjälp av lämplig identifiering, t.ex. liu-id eller namn kunna
+avgöra en sådan fråga.
+\subsection{Registrera röstberättigade medlemmar i röstlängden}
+\label{registrerarostlangd}
+Lösningen skall vara utformad på ett sådant sätt att personer som identifierats som röstberättigad
+medlem enligt \S \ref{rostberattigade} skall registreras i röstlängden. Detta kan exempelvis göras genom att personen
+temporärt sparas i en lista.
+\subsection{Avregistrera röstberättigade medlemmar ur röstlängden}
+\label{avregistrerarostlangd}
+Lösningen skall vara utformad på ett sådant sätt att personer som har a) identifierats som
+röstberättigad medlem enligt \S \ref{rostberattigade} och b) har registrerats enligt \S \ref{registrerarostlangd} också skall kunna avregistreras
+ur röstlängden.
+\subsection{Fastställande av röstlängden}
+\label{faststallarostlangd}
+I enlighet med \S \ref{registrerarostlangd} och \S \ref{avregistrerarostlangd} så skall lösningen också kunna tillkännage en skalär på den aktuella
+röstlängden.
+\subsection{Säkerställande av anonymitet i röstning}
+Systemet skall tillämpa gängse krypteringsmetoder och det skall vara omöjligt för någon att varken i
+realtid eller i efterhand kunna identifiera enskilda medlemmars erlagda röst i frågor.
+\section{Rutiner för användande av systemet}
+\label{anvandande}
+\subsection{Mötets initiala öppnande}
+\label{motetsoppnande}
+Om möteslokalen har fler än en ingång så skall det tillses att minst en dörrvakt är vid respektive dörr.
+Totalt skall minst en dörrvakt skall utses, förslagsvis från styret, som har till uppgift att kontrollera
+samtliga in och utpasserande personer. Det måste alltid sitta en person vid ingången till mötet under
+hela mötet. Personer måste alltid registrera sig i röstlängden enligt \S \ref{registrerarostlangd} vid ingång till salen, och
+avregistreras vid utgång enligt \S \ref{avregistrerarostlangd}. Personer som inte kan räknas som röstberättigad medlem enligt
+\S \ref{rostberattigade} men som ändå önskar deltaga på mötet av någon anledning skall anmäla sig vid presidiet och
+personernas närvaro på mötet skall i sedvanlig ordning adjungeras in av mötet. Observera att en
+sådan person ej skall föras in i röstlängden ty de inte är röstberättigade.
+\subsection{Förtydligande kring tillfälliga deltagare i anslutning till \S \ref{motetsoppnande}.}
+Det förekommer ofta att LinTek eller att någon typ av företag önskar hålla en presentation i början
+på mötet. Dessa personer är generellt sätt inte röstberättigade medlemmar. Sådana personer
+behöver generellt inte adjungeras in eftersom presentationen kan hållas innan mötets formella
+öppnande. Om personerna önskar deltaga längre än mötets formella öppnande så måste de såklart
+adjungeras in av mötet i sedvanlig ordning.
+\subsection{Fastställande av röstlängden}
+Systemet skall enligt \S \ref{faststallarostlangd} kunna ange en skalär för röstlängden. Systemet skall anses vara så pass
+säkert att det ej bör finnas skäl till misstanke om felaktigheter. Ansvaret ligger dock hos de utsedda
+rösträknarna och tillika justeringspersonerna och således, om de önskar, så skall traditionsenlig
+röstlängdsräkning göras. I annat fall skall systemets föreslagna röstlängd godkännas av
+justeringspersonerna innan det av ordförande tas upp för beslut till mötet.
+\subsection{Ajournering av mötet}
+Vid matpauser och dylikt så brukar mötet generellt sätt ajourneras. En sådan ajournering innebär att
+röstlängden sätts till 0 personer.
+\subsection{Återupptagande av mötet}
+Efter en ajournering så skall processen beskriven i \S \ref{motetsoppnande} göras om på nytt.
+\subsection{Enskilda personer ansluter mitt i mötet (ej i mötets öppnande eller under ajournering)}
+I enlighet med \S \ref{motetsoppnande} så är det upp till ”dörrvakten” att kontrollera personens status, dvs om personen
+är att betrakta som en röstberättigad medlem eller ej. Om ja så kan dörrvakten lägga till personen i
+röstlängden. Om nej så skall denne på ett sådant sätt att det inte stör mötet lämna sina uppgifter till
+presidiet och dess eventuella adjungering tas upp av mötet innan något annat beslut kan tas.
+\subsection{Enskilda personer lämnar mitt i mötet (ej i ajournering)}
+I enlighet med \S \ref{motetsoppnande} så skall dörrvakten kontrollera personen som går ut. Om personen var registrerad
+i röstlängden så skall personens namn strykas ur röstlängden i enlighet med \S \ref{avregistrerarostlangd}.
+
+\end{document}
