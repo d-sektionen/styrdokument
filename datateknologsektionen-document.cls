@@ -115,7 +115,7 @@
   5644-8251
   \\
   \textbf{E-post:}
-  info@d-sektionen.se
+  sekreterare@d-sektionen.se
   \textbf{Hemsida:}
   www.d-sektionen.se
 }
