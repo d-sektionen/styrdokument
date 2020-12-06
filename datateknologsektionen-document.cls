@@ -2,16 +2,18 @@
 \ProvidesClass{datateknologsektionen-document}[2019/01/07]
 \LoadClass{article}
 
+\usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[swedish]{babel}
 \usepackage{fancyhdr}
 \usepackage{graphicx}
 \usepackage{xcolor}
-\usepackage[left=3cm, right=3cm, top=3cm, bottom=5cm]{geometry}
+\usepackage[a4paper,left=3cm, right=3cm, top=3cm, bottom=5cm, headheight=41pt]{geometry}
 \usepackage[compact]{titlesec}
 \usepackage{enumitem}
 \usepackage{tabu}
 \usepackage{longtable}
+\usepackage[hidelinks]{hyperref}
 
 \usepackage{parskip}
 \usepackage{lastpage}
@@ -86,10 +88,10 @@
 {1em}
 {}
 \titlespacing*{\paragraph}
-{0pt}{0pt}{-5pt}
+{0pt}{5pt}{0pt}
 
 \titlespacing*{\subsubsection}
-{0pt}{0pt}{-5pt}
+{0pt}{0pt}{0pt}
 
 \graphicspath{ {./img/} }
  
@@ -115,7 +117,7 @@
   5644-8251
   \\
   \textbf{E-post:}
-  sekreterare@d-sektionen.se
+  \href{mailto://sekreterare@d-sektionen.se}{sekreterare@d-sektionen.se}
   \textbf{Hemsida:}
-  www.d-sektionen.se
+  \href{https://www.d-sektionen.se}{www.d-sektionen.se}
 }
