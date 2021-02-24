@@ -82,16 +82,10 @@
 {1em}
 {}
 
-\titleformat{\paragraph}
-{\normalfont\normalsize\bfseries\color{black!60}}
-{\S\theparagraph}
-{1em}
-{}
-\titlespacing*{\paragraph}
-{0pt}{5pt}{0pt}
-
-\titlespacing*{\subsubsection}
-{0pt}{0pt}{0pt}
+% Set spacing before and after sections
+\titlespacing\section{0pt}{4pt plus 4pt minus 2pt}{2pt plus 2pt minus 2pt}
+\titlespacing\subsection{0pt}{4pt plus 4pt minus 2pt}{1pt plus 2pt minus 2pt}
+\titlespacing\subsubsection{0pt}{2pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
 
 \graphicspath{ {./img/} }
  
