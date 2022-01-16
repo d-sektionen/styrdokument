@@ -13,6 +13,8 @@
 \usepackage{enumitem}
 \usepackage{tabu}
 \usepackage{longtable}
+\usepackage{tabularray}
+
 \usepackage[hidelinks]{hyperref}
 
 \usepackage{parskip}
